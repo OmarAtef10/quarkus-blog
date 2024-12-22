@@ -14,4 +14,12 @@ public class BlogPost extends PanacheEntity {
 
 
 
+    @Override
+    public String toString() {
+        return "BlogPost{" +
+                "title='" + title + '\'' +
+                ", content='" + content + '\'' +
+                '}';
+    }
+
 }
